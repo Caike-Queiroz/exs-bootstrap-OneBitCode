@@ -1,0 +1,85 @@
+.container00 {
+    &.container01 {
+        background-image: url(../../images/home/01.jpg);
+    }
+    &.container02 {
+        background-image: url(../../images/home/02.jpg);
+    }
+    &.container03 {
+        background-image: url(../../images/home/03.gif);
+    }
+    &.container04 {
+        background-image: url(../../images/home/04.jpg);
+    }
+}
+
+.titlePadding {
+    padding-top: 200px;
+}
+
+.shortTittle {
+    width: 550px;
+    margin-bottom: 25px;
+}
+
+.mediumTittle {
+    width: 650px;
+    margin-bottom: 25px;
+}
+
+.bi-instagram {
+    cursor: pointer;
+    transition: .5s;
+    
+    &:hover {
+        color: #dd2a7b;
+    }
+}
+
+.bi-twitter {
+    cursor: pointer;
+    transition: .5s;
+
+    &:hover {
+        color: #00acee;
+    }
+
+}
+
+.bi-youtube {
+    cursor: pointer;
+    transition: .5s;
+
+    &:hover {
+        color: #c4302b;
+    }
+}
+
+.bi-github {
+    cursor: pointer;
+    transition: .5s;
+
+    &:hover {
+        color: #808080;
+    }
+}
+
+// Media Query
+
+@media (max-width: 750px){
+    .titlePadding {
+        padding-top: 120px;
+    }
+
+    .shortTittle, .mediumTittle {
+        width: auto;
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 380px){
+    .shortTittle, .mediumTittle {
+        width: auto;
+        font-size: 40px;
+    }
+}
